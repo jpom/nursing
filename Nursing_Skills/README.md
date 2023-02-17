@@ -12,4 +12,4 @@ Step 4: Run python add_tokens.py, it will take Nursing_Fundamentals_Merged_File.
 
 ## The OpenAI Embedding Fine-Tune For Nursings Skills
 
-Run QnA_using_embeddings.ipynb
+Run Jupyter Notebook QnA_using_embeddings.ipynb
