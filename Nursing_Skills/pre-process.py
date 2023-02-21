@@ -2,6 +2,9 @@ import csv
 from pdfminer.high_level import extract_pages
 from pdfminer.layout import LTTextLineHorizontal, LTTextBoxHorizontal
 import pandas as pd
+from transformers import GPT2TokenizerFast
+
+tokenizer = GPT2TokenizerFast.from_pretrained("gpt2")
 
 def get_fontname(element):
     font = element.font
@@ -95,8 +98,19 @@ def merge_coloumn():
   # Save the updated DataFrame to a new CSV file
   df.to_csv("merged_columns_file.csv", index=False)
 
+def count_tokens(text: str) -> int:
+    """count the number of tokens in a string"""
+    return len(tokenizer.encode(text))
+
+def process_csv(input_file, output_file):
+    # data = pd.read_csv(input_file)
+    data = pd.read_csv(input_file, encoding='ISO-8859-1')
+    data['tokens'] = data['content'].apply(count_tokens)
+    data.to_csv(output_file, index=False)
+
 filename = 'Nursing_Skills.pdf'
 data = extract_text(filename)
 write_csv('extracted_data.csv', data)
 merge_similar_subsections()
 merge_coloumn()
+process_csv("merged_columns_file.csv", "finalwithtokens.csv")
