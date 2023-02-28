@@ -8,8 +8,8 @@ Step 2: Run python remove_empty_rows.pyp, it will take Nursing_Fundamentals_Raw_
 
 Step 3: Run python merge_columns.py, it will take Nursing_Fundamentals_Removed_Empty_Rows.csv and it will generate Nursing_Fundamentals_Merged_File.csv
 
-Step 4: Run add_tokens.py, it will take Nursing_Fundamentals_Merged_File.csv and it will generate nursing_fundamental_finalwithtokens.csv
+Step 4: Run python add_tokens.py, it will take Nursing_Fundamentals_Merged_File.csv and it will generate nursing_fundamental_finalwithtokens.csv
 
-## The OpenAI Embedding Fine-Tune For Nursings Skills
+## The OpenAI Embedding Fine-Tune For Nursings Fundamentals
 
-Run QnA_using_embeddings_Nursing_fundaments.ipynb
+Run Jupyter Notebook QnA_using_embeddings_Nursing_fundaments.ipynb
