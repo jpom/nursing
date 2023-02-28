@@ -12,4 +12,5 @@ Step 4: Run python add_tokens.py, it will take Nursing_Fundamentals_Merged_File.
 
 ## The OpenAI Embedding Fine-Tune For Nursings Fundamentals
 
-Run Jupyter Notebook QnA_using_embeddings_Nursing_fundaments.ipynb
+Run Jupyter Notebook create-embeddings.ipynb for create embeddings
+Run Jupyter Notebook test-model.ipynb for testing embedding Q/A
