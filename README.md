@@ -14,3 +14,7 @@ Step 4: Run python add_tokens.py, it will take Nursing_Fundamentals_Merged_File.
 
 Run Jupyter Notebook create-embeddings.ipynb for create embeddings
 Run Jupyter Notebook test-model.ipynb for testing embedding Q/A
+
+### TEST EXAMPLES 
+
+python .\test-model.py "What is bicarbonate?"
