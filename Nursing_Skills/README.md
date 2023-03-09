@@ -18,3 +18,9 @@ Run Jupyter Notebook test-model.ipynb for testing embedding Q/A
 ### TEST EXAMPLES 
 
 RUN python .\test-model.py "what is Integumentary Assessment?"
+
+RUN python .\test-model.py "what you know about Perform hand hygiene.?"
+
+RUN python .\test-model.py "what if patient is oxygen-dependent"
+
+Run python .\test-model.py "can you share details about Edema?"
