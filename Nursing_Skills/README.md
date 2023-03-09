@@ -24,3 +24,7 @@ RUN python .\test-model.py "what you know about Perform hand hygiene.?"
 RUN python .\test-model.py "what if patient is oxygen-dependent"
 
 Run python .\test-model.py "can you share details about Edema?"
+
+Run python .\test-model.py "what is Lymphedema?"
+
+Run python .\test-model.py "do you know what of CHAPTER 11? if yes then tell"
