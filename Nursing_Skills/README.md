@@ -10,6 +10,10 @@ Step 3: Run python .\merge_columns.py, it will take Nursing_Fundamentals_Removed
 
 Step 4: Run python add_tokens.py, it will take Nursing_Fundamentals_Merged_File.csv and it will generate nursing_fundamental_finalwithtokens.csv
 
+OR 
+
+Run Run python pre-process.py
+
 ## The OpenAI Embedding Fine-Tune For Nursings Skills
 
 Run Jupyter Notebook create-embeddings.ipynb for create embeddings
