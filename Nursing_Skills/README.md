@@ -12,7 +12,7 @@ Step 4: Run python add_tokens.py, it will take Nursing_Fundamentals_Merged_File.
 
 OR 
 
-Run Run python pre-process.py
+Run python pre-process.py
 
 ## The OpenAI Embedding Fine-Tune For Nursings Skills
 
